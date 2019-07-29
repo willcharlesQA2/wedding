@@ -1,0 +1,26 @@
+/*
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 0, 0, 0.5);
+}
+*/
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("././img/flower-photo-1.jpeg");
+
+  /* Full height */
+  height: 20%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fakeimg {
+  height: 200px;
+  background-image: url("././img/flower-photo-1.jpeg");
+}
