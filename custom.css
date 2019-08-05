@@ -7,12 +7,16 @@ body, html {
   height: 100%;
 }
 
+.container {
+  text-align: center
+}
+
 .header-bg {
   /* The image used */
   background-image: url("img/bench-sitting.jpg");
 
   /* Full height */
-  height: 300px;
+  height: 200px;
 
   /* Center and scale the image nicely */
   background-position: bottom;
@@ -40,8 +44,13 @@ body, html {
 }
 
 .fakeimg {
-  height: 200px;
+  height: 100px;
   background-image: url("img/placeholder.jpeg");
+}
+
+.bench-img {
+  height: 100px;
+  background-image: url("img/bench-sitting.jpg");
 }
 
 /* Make the image fully responsive */
