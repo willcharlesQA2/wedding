@@ -3,11 +3,12 @@
   color: rgba(255, 0, 0, 0.5);
 }
 */
+
 body, html {
   height: 100%;
 }
 
-.container {
+.container-fluid {
   text-align: center
 }
 
