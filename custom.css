@@ -12,6 +12,10 @@ body, html {
   text-align: center
 }
 
+.container {
+  text-align: center
+}
+
 .header-bg {
   /* The image used */
   background-image: url("img/bench-sitting.jpg");
