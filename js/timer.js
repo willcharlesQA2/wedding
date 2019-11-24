@@ -8,7 +8,7 @@ var x = setInterval(function() {
   var now = new Date().getTime();
 
   // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+    var distance = countDownDate - now;
 
   // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -20,5 +20,11 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("timer").innerHTML = "Thank you for coming!";
+  }
+
+  // If there is a bug
+  if (isNaN(distance)) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "August 1st 2020";
   }
 }, 1000);
