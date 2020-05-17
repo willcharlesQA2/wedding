@@ -48,6 +48,11 @@ body, html {
   background-size: cover;
 }
 
+.info {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+}
+
 .fakeimg {
   height: 100px;
   background-image: url("img/placeholder.jpeg");
