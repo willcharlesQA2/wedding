@@ -1,9 +1,5 @@
 // Set the date we're counting down to
-<<<<<<< HEAD
 var countDownDate = new Date("July 10, 2021 24:00:00").getTime();
-=======
-var countDownDate = new Date("April 17, 2021 24:00:00").getTime();
->>>>>>> fd4c791f019b234dccbc7d075d4bf6d2307b26fc
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -29,10 +25,6 @@ var x = setInterval(function() {
   // If there is a bug
   if (isNaN(distance)) {
     clearInterval(x);
-<<<<<<< HEAD
     document.getElementById("timer").innerHTML = "10th July 2021";
-=======
-    document.getElementById("timer").innerHTML = "April 17th 2021";
->>>>>>> fd4c791f019b234dccbc7d075d4bf6d2307b26fc
   }
 }, 1000);
