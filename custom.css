@@ -16,6 +16,14 @@ body, html {
   text-align: center
 }
 
+.rules{
+  text-align: left
+}
+
+li{
+  margin: 10px 0;
+}
+
 .header-bg {
   /* The image used */
   background-image: url("img/bench-sitting.jpg");
